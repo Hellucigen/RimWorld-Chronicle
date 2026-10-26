@@ -1,0 +1,31 @@
+# 生成的产物与运行输出
+output/
+out/
+story/
+defs.json
+*_test/
+
+# 存档本体(含个人游玩数据,且远超 GitHub 单文件限制)
+*.rws
+*.dat
+
+# 本地配置(可能含本机路径)
+config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+build/
+dist/
+*.manifest
+
+# 调试遗留
+*.log
+*.tmp
+
+# 系统
+.DS_Store
+Thumbs.db
